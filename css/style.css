@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;700;800;900&display=swap');
+
+:root{
+Azul: #282932
+Naranja: #f7b614
+Títulos: #2a2a2a
+}
+
+body{
+	font-family: "Catamaran";
+	font-size: 14px;
+}
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+	font-family: "Heebo";
+}
+
+#hero{
+	background-image: url("../img/slider-glob.png");
+	background-color:#282932;
+	}
+
+#hero h1{
+	margin-top: 100px;
+	font-size: 50px;
+	color:#FFFFFF;
+	font-family: "Heebo";
+	}
+
+#hero h2{
+	margin-top:-20px;
+	color:#f7b614;
+	font-size: 50px;
+	font-family: "Heebo";
+	}
+
+#hero p{
+	color:#FFFFFF;
+	font-family: "Catamaran";
+	}
+
+#hero a{
+	margin-top:20px;
+	background-color:#f7b614;
+	color:#282932;
+	font-family: "Catamaran";
+	font-weight:bold;
+	font-size: 15px;
+	border: none;
+    border-radius: 40px;
+    padding: 15px 60px;
+    cursor: pointer;
+	}
+
+#populargoods h6{
+	margin-top: 50px;
+	color:#f7b614;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Heebo";
+	}
+
+#populargoods h2{
+	color:#282932;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Heebo";
+	}
+
+.card {
+    border: none;
+}
+
+#populargoods i{
+	color:#f7b614;
+	text-align: center;
+	margin-left:14px;
+	padding: 2px 9px 0 10px;
+	}
+
+#populargoods h5{
+	margin-top: 10px;
+	color:#282932;
+	text-align:center;
+	font-weight:bold;
+	}
+
+#populargoods p{
+	color:#282932;
+	text-align:center;
+	}
+
+#populargoods button{
+	margin-top:8px;
+	background-color:#f7b614;
+	color:#282932;
+	font-family: "Catamaran";
+	font-weight:bold;
+	font-size: 10px;
+	border: none;
+    border-radius: 40px;
+    padding: 10px 40px;
+	margin-left:61px;
+    cursor: pointer;
+	margin-bottom: 40px;
+	}
+
+.card-price{
+	text-align: center;
+	color:#282932;
+	font-family: "Catamaran";
+	font-weight:bold;
+	font-size: 15px;
+	}
+
+#sit{
+	background-color:#282932;
+	}
+
+#sit h2{
+	color:#FFFFFF;
+	font-family: "Heebo";
+	font-weight:bold;
+	font-size: 40px;
+	margin-top: 50px;
+	margin-left: 50px;
+	}
+
+#sit h3{
+	color:#f7b614;
+	font-family: "Heebo";
+	font-weight:bold;
+	font-size: 40px;
+	margin-left: 50px;
+	margin-top: -15px;
+	}
+
+#sit p{
+	color:#FFFFFF;
+	font-family: "Catamaran";
+	font-size: 15px;
+	margin-left: 50px;
+	margin-right: 30px;
+	
+	}
+
+.custom-paragraph {
+	font-family: "Catamaran";
+	font-weight:bold;
+    text-align: center; 
+    font-size: 10px; 
+	margin-left: 50px;
+    margin-top: 10px;
+}
+
+.custom-icon{
+    text-align: center; 
+    font-size: 10px; 
+	margin-left: 40px;
+    margin-top: 10px;
+}
+
+#sit a{
+	margin-top:20px;
+	background-color:#f7b614;
+	color:#282932;
+	font-family: "Catamaran";
+	font-weight:bold;
+	font-size: 15px;
+	border: none;
+    border-radius: 40px;
+    padding: 15px 60px;
+    cursor: pointer;
+	margin-bottom: 40px;
+	margin-left: 50px;
+	}
+
+#subscribe{
+	background-color:#f7b614;
+	}
+
+#subscribe h5{
+	margin-top: 10px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-family: "Heebo";
+	}
+
+#subscribe h3{
+	margin-top: -10px;
+	color: #282932;
+	font-size: 30px;
+	font-family: "Heebo";
+	font-weight: bold;
+	margin-bottom: 10px;
+	}
+
+#subscribe i{
+	font-size: 40px;
+	padding: 10px;
+	}
+
+#subscribe input{
+	font-size: 10px;
+	padding: 5px;
+	}
+
+#subscribe a{
+	margin-top:20px;
+	background-color:#282932;
+	color:#f7b614;
+	font-family: "Catamaran";
+	font-weight:bold;
+	font-size: 15px;
+	border: none;
+    border-radius: 40px;
+    cursor: pointer;
+	}
+
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+	font-family: "Catamaran";
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+	
+}
